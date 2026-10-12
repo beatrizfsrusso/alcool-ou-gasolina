@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alcohol or Gasoline</string>
+
+    <!-- Navigation -->
+    <string name="voltar">Back</string>
+
+    <!-- Screen: station list -->
+    <string name="lista_titulo">Saved stations</string>
+    <string name="lista_vazia">No stations saved yet. Tap \"New station\" to start.</string>
+    <string name="lista_novo_posto">New station</string>
+    <string name="lista_contagem">%1$d station(s) saved</string>
+
+    <!-- Screen: form -->
+    <string name="form_titulo_novo">New station</string>
+    <string name="form_titulo_editar">Edit station</string>
+    <string name="form_nome">Station Name (Optional)</string>
+    <string name="form_preco_alcool">Alcohol Price (R$)</string>
+    <string name="form_preco_gasolina">Gasoline Price (R$)</string>
+    <string name="form_limite_switch">Use a 70% threshold instead of 75%</string>
+    <string name="form_calcular">Calculate</string>
+    <string name="form_salvar">Save</string>
+    <string name="form_usar_localizacao">Use my location</string>
+    <string name="form_localizacao_atual">Location: %1$s, %2$s</string>
+    <string name="form_sem_localizacao">Location not provided</string>
+    <string name="form_buscando_localizacao">Getting location…</string>
+    <string name="form_placeholder_resultado">Let\'s calculate?</string>
+
+    <!-- Screen: station details -->
+    <string name="detalhe_titulo">Station details</string>
+    <string name="detalhe_data">Registered on</string>
+    <string name="detalhe_localizacao">Location</string>
+    <string name="detalhe_localizacao_indisponivel">Not provided</string>
+    <string name="detalhe_recomendacao">Best value fuel</string>
+    <string name="detalhe_ver_mapa">View on map</string>
+    <string name="detalhe_editar">Edit</string>
+    <string name="detalhe_excluir">Delete</string>
+    <string name="detalhe_sem_nome">Unnamed station</string>
+
+    <!-- Calculation result -->
+    <string name="combustivel_alcool">Alcohol</string>
+    <string name="combustivel_gasolina">Gasoline</string>
+    <string name="resultado_com_posto">At %1$s, fill up with %2$s (ratio of %3$s%%).</string>
+    <string name="resultado_sem_posto">Fill up with %1$s (ratio of %2$s%%).</string>
+    <string name="erro_precos_invalidos">Enter valid prices for both fuels.</string>
+
+    <!-- Deletion -->
+    <string name="excluir_titulo">Delete station</string>
+    <string name="excluir_mensagem">Are you sure you want to delete \"%1$s\"?</string>
+    <string name="cancelar">Cancel</string>
+
+    <!-- Location and map -->
+    <string name="permissao_negada">Location permission denied. The location will not be saved.</string>
+    <string name="localizacao_indisponivel">Could not get the location. Check whether GPS is enabled.</string>
+    <string name="mapa_indisponivel">No map application found.</string>
+</resources>

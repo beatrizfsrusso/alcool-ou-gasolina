@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Álcool ou Gasolina</string>
+
+    <!-- Navegação -->
+    <string name="voltar">Voltar</string>
+
+    <!-- Tela: lista de postos -->
+    <string name="lista_titulo">Postos cadastrados</string>
+    <string name="lista_vazia">Nenhum posto cadastrado ainda. Toque em \"Novo posto\" para começar.</string>
+    <string name="lista_novo_posto">Novo posto</string>
+    <string name="lista_contagem">%1$d posto(s) cadastrado(s)</string>
+
+    <!-- Tela: formulário -->
+    <string name="form_titulo_novo">Novo posto</string>
+    <string name="form_titulo_editar">Editar posto</string>
+    <string name="form_nome">Nome do Posto (Opcional)</string>
+    <string name="form_preco_alcool">Preço do Álcool (R$)</string>
+    <string name="form_preco_gasolina">Preço da Gasolina (R$)</string>
+    <string name="form_limite_switch">Usar limite de 70% em vez de 75%</string>
+    <string name="form_calcular">Calcular</string>
+    <string name="form_salvar">Salvar</string>
+    <string name="form_usar_localizacao">Usar minha localização</string>
+    <string name="form_localizacao_atual">Localização: %1$s, %2$s</string>
+    <string name="form_sem_localizacao">Localização não informada</string>
+    <string name="form_buscando_localizacao">Obtendo localização…</string>
+    <string name="form_placeholder_resultado">Vamos Calcular?</string>
+
+    <!-- Tela: detalhes do posto -->
+    <string name="detalhe_titulo">Detalhes do posto</string>
+    <string name="detalhe_data">Data do cadastro</string>
+    <string name="detalhe_localizacao">Localização</string>
+    <string name="detalhe_localizacao_indisponivel">Não informada</string>
+    <string name="detalhe_recomendacao">Combustível mais vantajoso</string>
+    <string name="detalhe_ver_mapa">Ver no mapa</string>
+    <string name="detalhe_editar">Editar</string>
+    <string name="detalhe_excluir">Excluir</string>
+    <string name="detalhe_sem_nome">Posto sem nome</string>
+
+    <!-- Resultado do cálculo -->
+    <string name="combustivel_alcool">Álcool</string>
+    <string name="combustivel_gasolina">Gasolina</string>
+    <string name="resultado_com_posto">No %1$s, abasteça com %2$s (relação de %3$s%%).</string>
+    <string name="resultado_sem_posto">Abasteça com %1$s (relação de %2$s%%).</string>
+    <string name="erro_precos_invalidos">Informe preços válidos para os dois combustíveis.</string>
+
+    <!-- Exclusão -->
+    <string name="excluir_titulo">Excluir posto</string>
+    <string name="excluir_mensagem">Tem certeza que deseja excluir \"%1$s\"?</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- Localização e mapa -->
+    <string name="permissao_negada">Permissão de localização negada. A localização não será salva.</string>
+    <string name="localizacao_indisponivel">Não foi possível obter a localização. Verifique se o GPS está ativo.</string>
+    <string name="mapa_indisponivel">Nenhum aplicativo de mapas encontrado.</string>
+</resources>
